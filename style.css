@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:ital,wght@0,100;0,800;1,400&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+header {
+    background-image: linear-gradient(rgba(42, 58, 74, 0.65), rgba(42, 58, 74, 0.65)), url(red.jpg);
+    height: 900px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center; 
+}
+
+
+.header-container {
+
+    background: rgba(0, 247, 255, 0.3);
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.85);
+    
+}
+.header-container h2{
+    font-size: 60px;
+    width: 100%;
+    text-align: left;
+    margin: auto;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.image_pfp img{
+    width: 400px;
+    border-radius: 20px;
+    height: 550px;
+}
+.intro .image_pfp img{
+    width: 400px;
+    border-radius: 20px;
+    height: 450px;
+    margin-top: 1px;
+    margin-bottom:700px;  
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #47374e;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px; 
+    text-align: left; 
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px; 
+    line-height: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    padding: 6px 13px;
+    transition: 0.4s all ease-out;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background: rgba(253, 74, 71, 0.7);
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px; 
+    font-family: 'Quicksand', sans-serif; 
+
+}
+
+
+h3 {
+    color: #fff; 
+    font-size: 15px; 
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif; 
+    margin-top: 20px;
+}
+.intro{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 150px;
+    margin-top: 80px;
+}
+.intro1{
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 150px;
+    margin-top: 90px;
+}
+.activities{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.activities a{
+
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #38336b;
+    padding: 30px;
+    font-weight: bold;
+    
+
+}
+.activities a img:hover{
+
+width: 800px;
+}
+.activities > a  > img{
+    width: 500px;
+ transition: 0.5s, 0.5s;
+
+}
+.intro p {
+    width: 50%;
+    margin-left: 50px;
+}
+.intro1 p {
+    width: 50%;
+    margin-left: 50px;
+}
+footer {
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 0.5rem;
+}
+.act_p p {  
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+   
+ 
+}
+
+#activities > h3 {
+    color: #fff; 
+    font-size: 15px; 
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+
+}
+#activities > nav ul li a {
+    font-size: 25px;
+    line-height: 15;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif; 
+    margin-top: 10px;
+}
+
+#activities {
+    background-image: linear-gradient(rgba(42, 58, 74, 0.65), rgba(42, 58, 74, 0.65)), url(red.jpg);
+    height: 900px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif; 
+   
+  
+}
+#Contact {
+    background-image: linear-gradient(rgba(42, 58, 74, 0.65), rgba(42, 58, 74, 0.65)), url(red.jpg);
+    height: 700px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif; 
+  
+}
+#Contact h2{
+    padding-top: 50px;
+}
+#Contact h1{
+    padding-top: 50px;
+}
+.container{
+    margin: auto;
+}
+#Aboutus{
+    background-image: linear-gradient(rgba(42, 58, 74, 0.65), rgba(42, 58, 74, 0.65)), url(red.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 100px;
+    height: 900px;
+    text-align: center;
+}
+
+
+
+
+#Aboutus h1{
+    margin-left: 100px;
+
+} 
+
+.container {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card {
+    position: relative;
+    border-radius: 10px;
+}
+
+.container .card .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.7s;
+    z-index: 1;
+}
+
+.container .card:nth-child(1) .icon {
+    background: #6175e9;
+}
+
+.container .card:nth-child(2) .icon {
+    background: #6eadd4;
+}
+
+.container .card:nth-child(3) .icon {
+    background: #4aada9;
+}
+
+
+.container .card .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.container .card .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    background: #ff0057;
+    transform: translateY(0px);
+}
+
+.container .card .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container .card .face.face1 .content i{
+    max-width: 100px;
+}
+
+.container .card .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+}
+
+.container .card .face.face2 .content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+} 
+
+.container a {
+    text-decoration: none;
+    color: #414141;
+}
